@@ -3,19 +3,11 @@ package org.example.switchexpression;
 public class Teste {
 
 	public static void main(String[] args) {
-		String nome = "Jo�o";
+		String nome = "Joao";
 		switch (nome) {
-		case "Renata": {
-			System.out.println("Acertou: " + nome);
-			break;
+		case "Renata" -> 	System.out.println("Acertou: " + nome);
+		case "Joao" -> 	System.out.println("Acertou: " + nome);
+	 	default -> 	System.out.println("Nenhum nome encontrado!!");
 		}
-		case "Jo�o": {
-			System.out.println("Acertou: " + nome);
-			break;
-		}
-		default: {
-			System.out.println("Nenhum nome encontrado!!");
-		}
-		}
-	}
+	}	
 }
