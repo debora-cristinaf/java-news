@@ -1,4 +1,4 @@
-package br.com.alura.textblock;
+package org.example.textblock;
 
 public class Teste {
 

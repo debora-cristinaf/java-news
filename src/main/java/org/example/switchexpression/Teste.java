@@ -1,15 +1,15 @@
-package br.com.alura.switchexpression;
+package org.example.switchexpression;
 
 public class Teste {
 
 	public static void main(String[] args) {
-		String nome = "João";
+		String nome = "Joï¿½o";
 		switch (nome) {
 		case "Renata": {
 			System.out.println("Acertou: " + nome);
 			break;
 		}
-		case "João": {
+		case "Joï¿½o": {
 			System.out.println("Acertou: " + nome);
 			break;
 		}
